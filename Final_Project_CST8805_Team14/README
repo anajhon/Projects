@@ -1,0 +1,27 @@
+Applied Cryptography & PKI Secure File Exchange
+Project Overview
+
+This Capstone project involved the design and implementation of an asynchronous, end-to-end secure file-sharing system. Working in a simulated team of security engineers, I deployed a full-scale Public Key Infrastructure (PKI) to ensure the confidentiality, integrity, and authenticity of data transferred across segregated network boundaries.
+Key Objectives
+
+    PKI Implementation: Established a Third-Party Certificate Authority (CA) using OpenSSL 3 to manage the full certificate lifecycle, including identity issuance and certificate revocation via CRLs (Certificate Revocation Lists).
+
+    Secure Messaging Workflow: Developed a multi-stage cryptographic process for file exchange:
+
+        Sender Side: Implemented digital signatures for authenticity and symmetric encryption for confidentiality, adhering to NIST SP 800-131A Rev. 2 standards.
+
+        Recipient Side: Executed multi-factor verification, including signature validation, certificate trust-chain checks against a root CA, and real-time CRL status auditing.
+
+    Network Realism & Trust Boundaries: Deployed the architecture across four dedicated systems (CA, CRL Host, Sender, and Recipient) to simulate a realistic corporate environment and prevent private key leakage.
+
+    Defense Mechanisms: Integrated replay-attack detection and distinct usage validation for signing vs. encryption keys to ensure cryptographic hygiene.
+
+Technologies & Standards
+
+    Tools: OpenSSL 3, Linux (Dedicated System Deployments)
+
+    Standards: NIST SP 800-131A Rev. 2 (Cryptographic Key Lengths & Algorithms)
+
+    Protocols: PKI, RSA/AES, CRL (Certificate Revocation), SHA-256
+
+    Security Concepts: Authenticated Encryption, Trust Chains, Key Management, Replay Protection
