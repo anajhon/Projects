@@ -1,4 +1,4 @@
-roject Overview
+Project Overview
 
 Developed a custom SSH Honeypot in Python to simulate a vulnerable service and capture unauthorized reconnaissance and brute-force attempts. The system goes beyond simple logging by analyzing attacker behavior and generating real-time security tickets sent directly via email.
 Key Features
