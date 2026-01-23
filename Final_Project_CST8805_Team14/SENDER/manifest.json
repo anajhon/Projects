@@ -1,0 +1,15 @@
+{
+  "encrypted_file": "Enc.bin",
+  "signature_file": "Enc.bin.sig",
+  "key_wrap_file": "symkey.hex.rsa",
+  "signature_algorithm": "RSA",
+  "hash_algorithm": "SHA3-512",
+  "encryption_algorithm": "AES-256-CTR",
+  "key_wrap_algorithm": "RSAES-PKCS1-v1_5",
+  "iv": "00000000000000000000000000000001",
+  "transaction_id": "team14-0001",
+  "timestamp_utc": "2025-11-22T23:35:00Z",
+  "sender_cert_subject": "C=CA, ST=ONTARIO, L=OTTAWA, O=SENDER, OU=SENDER, CN=SENDER, emailAddress=SENDER@SENDER.CA",
+  "sender_cert_serial": "0x101",
+  "sender_cert_issuer": "C=CA, ST=ONTARIO, L=OTTAWA, O=GROUP1, OU=GROUP1, CN=GROUP1"
+}
