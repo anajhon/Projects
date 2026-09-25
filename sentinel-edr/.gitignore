@@ -1,0 +1,11 @@
+# Python bytecode & environments
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# API keys and local configs
+config/settings.json
+
+# Local telemetry logs
+logs/*.json

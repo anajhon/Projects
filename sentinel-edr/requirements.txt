@@ -1,0 +1,8 @@
+# GUI Framework
+customtkinter>=5.2.2
+
+# System & Process Monitoring
+psutil>=5.9.8
+
+# API Requests (VirusTotal & Groq)
+requests>=2.31.0

@@ -1,0 +1,9 @@
+{
+  "python-envs.defaultEnvManager": "ms-python.python:system",
+  "files.associations": {
+    "**/logs/*.json": "plaintext"
+  },
+  "python.analysis.extraPaths": [
+    "."
+  ]
+}
